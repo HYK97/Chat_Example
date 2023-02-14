@@ -24,6 +24,9 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-websocket'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
+	implementation 'org.springframework.boot:spring-boot-devtools'
+	implementation 'it.ozimov:embedded-redis:0.7.2'
+	implementation 'com.google.code.gson:gson:2.8.0'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
